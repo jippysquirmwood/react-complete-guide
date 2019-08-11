@@ -52,7 +52,7 @@ class App extends Component {
       persons = <Persons
             persons={this.state.persons}
             clicked={this.deletePersonHandler}
-            changed={this.nameChangedHandler} />;s
+            changed={this.nameChangedHandler} />;
     }
 
     return (
